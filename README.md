@@ -1,21 +1,21 @@
-# Implementation of cryptographic algorithms on PULP
+# 🔐 Implementation of cryptographic algorithms on PULP
 
 This project involves the implementation and performance evaluation of cryptographic algorithms on GVSoC, exploiting the 8-core cluster for parallelized execution.
 
-## Cryptographic Algorithms Implemented
+## 🛠️ Cryptographic Algorithms Implemented
 - **AES-256-CTR**
 - **AES-256-GCM**
 - **ChaCha20**
 - **ChaCha20-Poly1305**
 
-## Test Vector Generation
+## 🧪 Test Vector Generation
 
 To generate arbitrary-length test vectors, we developed a Python script (`/Python/testvector.ipynb`). The script:
 
 1. Verifies the correctness of built-in Python functions using official test vectors (also tested in the GVSoC implementation).
 2. Generates plaintext and corresponding ciphertext files with selected lengths (512B, 1kB, 2kB, 4kB, 8kB, 16kB, 32kB).
 
-## Run it yourself
+## 🚀 Run it yourself
 
 ### Installation Instructions
 To install all required components, simply execute the following command in your terminal in the repo folder:
@@ -25,7 +25,7 @@ chmod +x ./setup_pulp.sh
 ./setup_pulp.sh
 ~~~~~
 
-### Running the Tests
+### 📊 Running the Tests
 You can find test directories for each of the four encryption algorithms in the `/tests` folder. To run a test, navigate to the desired algorithm's directory and execute:
 
 ~~~~~shell
