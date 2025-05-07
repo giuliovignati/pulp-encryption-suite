@@ -1,9 +1,6 @@
-# CPS Project - Crypto on PULP
-
-### Gaspari Riccardo, Vignati Giulio, Franchi Matteo
+# Implementation of criptographic algorithms on PULP
 
 This project involves the implementation and performance evaluation of cryptographic algorithms on GVSoC, exploiting the 8-core cluster for parallelized execution.
-Watch the full Presentation [📄 here](https://github.com/jRxcky/Crypto-on-PULP/blob/main/CPS_project.pdf)
 
 ## Cryptographic Algorithms Implemented
 - **AES-256-CTR**
@@ -19,11 +16,6 @@ To generate arbitrary-length test vectors, we developed a Python script (`/Pytho
 2. Generates plaintext and corresponding ciphertext files with selected lengths (512B, 1kB, 2kB, 4kB, 8kB, 16kB, 32kB).
 
 ## Run it yourself
-
-### Prerequisites
-Before proceeding, ensure that:
-- You are running **Ubuntu 22.04** within **WSL** (or virtual machine).
-- You have internet access to download dependencies.
 
 ### Installation Instructions
 To install all required components, simply execute the following command in your terminal in the repo folder:
