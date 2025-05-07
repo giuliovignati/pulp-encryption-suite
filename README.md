@@ -1,4 +1,4 @@
-# Implementation of criptographic algorithms on PULP
+# Implementation of cryptographic algorithms on PULP
 
 This project involves the implementation and performance evaluation of cryptographic algorithms on GVSoC, exploiting the 8-core cluster for parallelized execution.
 
