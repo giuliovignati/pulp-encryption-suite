@@ -2,7 +2,7 @@
 
 This project involves the implementation and performance evaluation of cryptographic algorithms on GVSoC, exploiting the 8-core cluster for parallelized execution.
 
-## 🛠️ Cryptographic Algorithms Implemented
+## Cryptographic Algorithms Implemented
 - **AES-256-CTR**
 - **AES-256-GCM**
 - **ChaCha20**
